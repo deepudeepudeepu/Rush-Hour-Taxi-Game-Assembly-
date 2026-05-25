@@ -1,0 +1,61 @@
+# Visual Studio and build artifacts
+.vs/
+*.vcxproj.user
+*.vcxproj.filters.user
+*.suo
+*.user
+*.userosscache
+*.VC.db
+*.VC.opendb
+*.opendb
+ipch/
+*.lastbuildstate
+
+# Build output
+Debug/
+Release/
+Debug/**
+Release/**
+bin/
+obj/
+build/
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+*.exe
+*.ilk
+*.pdb
+*.idb
+*.ipdb
+*.tlog
+*.log
+*.exe.recipe
+
+# MASM / assembly generated files
+*.lst
+*.map
+
+# Visual Studio Code settings (if any)
+.vscode/
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Archive / packages
+*.zip
+*.7z
+*.rar
+
+# Temporary files
+~$*
+*.tmp
+*.bak
+*.swp
+
+# Keep audio and source assets tracked (explicitly not ignored)
+# highscores.txt may be a runtime file — if you prefer it ignored, uncomment the next line
+# highscores.txt
